@@ -2,7 +2,7 @@
 Happy | Bring happy to the world
 
 <h1 align="center">
-    <img alt="" title="#Happy" src="./web/src/images/logo.svg" width="380px" />
+    <img alt="" title="#Happy" src="./web/src/images/Logo.svg" width="380px" />
 </h1>
 
 <h4 align="center"> 
