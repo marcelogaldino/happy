@@ -33,6 +33,7 @@ Happy | Bring happy to the world
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-backstage">Backstage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -113,6 +114,10 @@ $ npm start
 After merging your receipt request to done, you can delete a branch from yours.
 
 You are also free to help this project sending me pull requests and opening issues.
+
+## 📖 Backstage
+
+Get inside my studies and notes about this project!
 
 ## :memo: License
 
