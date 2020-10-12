@@ -117,7 +117,7 @@ You are also free to help this project sending me pull requests and opening issu
 
 ## 📖 Backstage
 
-Get inside my studies and notes about this project [here](https://www.notion.so/REACT-cac5c23838ff4d31bf21772eadfd45bd)!
+Get inside my studies and notes about this project [here](https://www.notion.so/NLW-9b50a64ebfa940738a2ecea7db508e24)!
 
 ## :memo: License
 
