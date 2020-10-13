@@ -64,7 +64,7 @@ $ git clone https://github.com/marcelogaldino/happy
 
 ```bash
 # Go into directory server/
-$ cd server
+$ cd backend
 # Install dependencies
 $ npm install
 # Run the server
@@ -73,7 +73,7 @@ $ npm run dev
 ## Creating the database
 ```bash
 # Go into directory server/
-$ cd server
+$ cd backend
 # Create the database
 $ npm knex-migrate
 # populating the database
