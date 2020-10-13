@@ -24,7 +24,7 @@ Happy | Bring happy to the world
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/marcelogaldino/happy/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/marcelogaldino/ecoleta?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/marcelogaldino/happy?style=social">
   </a>
 </p>
 
@@ -121,7 +121,7 @@ Get inside my studies and notes about this project [here](https://www.notion.so/
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/marcelogaldino/ecoleta/blob/main/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/marcelogaldino/happy/blob/main/LICENSE) for details.
 
 
 Made with ♥ by Marcelo Galdino :wave: [Get in touch!](https://www.linkedin.com/in/marcelogaldino/)
