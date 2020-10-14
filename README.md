@@ -37,6 +37,8 @@ Happy | Bring happy to the world
   <a href="#memo-license">License</a>
 </p>
 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Happy%20API&uri=C%3A%5CDisk%5Chappy%5Cbackend%5CInsomniaWorkspaceHappy.json)
+
 ## Project
 
 Happy is a project that helps you find the best places and start making a better day for children | Let's spread love 💜.
