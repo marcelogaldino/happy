@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
 
@@ -11,10 +11,19 @@ import mapMarkerImg from '../images/map-marker.svg'
 import '../styles/pages/orphanages-map.css'
 import api from '../services/api'
 
+interface Orphanage {
+    id: number,
+    latitude: number,
+    longitude: number,
+    name: string
+}
+
 function OrphanagesMap() {
+    const [orphanages, setOrphanages] = useState<Orphanage[]>([])
+
     useEffect(() => {
         api.get('orphanages').then(response => {
-            console.log(response)
+            setOrphanages(response.data)
         })
     }, [])
 
@@ -40,17 +49,23 @@ function OrphanagesMap() {
             >
                 <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
-                <Marker 
-                    position={[-23.5184436, -51.6860508]}
-                    icon={MapIcon}
-                >
-                    <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup">
-                        Orfanato
-                        <Link to="/orphanages/1">
-                            <FiArrowRight size={20} color="#FFF"/>
-                        </Link>
-                    </Popup>
-                </Marker>    
+                {orphanages.map(orphanage => {
+                    return(
+                        <Marker 
+                            position={[orphanage.latitude, orphanage.longitude]}
+                            icon={MapIcon}
+                            key={orphanage.id}
+                        >
+                            <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup">
+                                {orphanage.name}
+                                <Link to={`/orphanages/${orphanage.id}`}>
+                                    <FiArrowRight size={20} color="#FFF"/>
+                                </Link>
+                            </Popup>
+                        </Marker>
+                    )
+                })}
+                    
                 
 
             </Map>
