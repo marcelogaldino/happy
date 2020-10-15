@@ -68,21 +68,19 @@ $ git clone https://github.com/marcelogaldino/happy
 ## Running the server
 
 ```bash
-# Go into directory server/
+# Go into directory backend/
 $ cd backend
 # Install dependencies
 $ npm install
-# Run the server
+# Run the backend
 $ npm run dev
 ```
 ## Creating the database
 ```bash
-# Go into directory server/
+# Go into directory backend/
 $ cd backend
-# Create the database
-$ npm knex-migrate
-# populating the database
-$ npm knex-seed
+# Create the database and run migrations
+$ npm run typeorm migrate:run
 ```
 
 ## Running the web
